@@ -19,7 +19,7 @@ function Objecticer(components, onObjecticer){
           var container = document.createElement("div");
           container.innerHTML = xhr.responseText;
 
-          //container.getElementById("bt").id = "bt0";
+          //container.getElementById("bt").id = "bt0" ;
 
           alert(xhr.responseText);
           alert(container.innerHTML);
